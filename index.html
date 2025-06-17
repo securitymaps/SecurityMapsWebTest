@@ -2,10 +2,57 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>SecurityMaps - Iniciar Sesión</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SecurityMaps</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
   <style>
     body {
       margin: 0;
-      font-family: 'Segoe UI', sans-serif;
-      background: linear-gradient(to bottom, #000428, #004e92);
+      font-family: 'Montserrat', sans-serif;
+      background: linear-gradient(to bottom right, #1e1e2f, #3e3e5f);
+      color: white;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      text-align: center;
+    }
+    .logo {
+      font-size: 2.5rem;
+      font-weight: 700;
+      color: #00f0ff;
+    }
+    .tagline {
+      font-size: 1.2rem;
+      margin-top: 0.5rem;
+    }
+    .btn {
+      background-color: #00f0ff;
+      color: #1e1e2f;
+      border: none;
+      padding: 15px 30px;
+      border-radius: 8px;
+      font-size: 1rem;
+      cursor: pointer;
+      margin: 15px 10px;
+      transition: background-color 0.3s ease;
+    }
+    .btn:hover {
+      background-color: #00d0dd;
+    }
+    .footer {
+      position: absolute;
+      bottom: 20px;
+      font-size: 0.9rem;
+      opacity: 0.6;
+    }
+  </style>
+</head>
+<body>
+  <div class="logo">🔐 SecurityMaps</div>
+  <div class="tagline">Protección avanzada global con IA y seguridad de última generación.</div>
+
+  <div>
+    <button class="btn" onclick="location.href='login.html'">Iniciar Sesión</button>
+    <button class="btn" onclick="location.href='register.html'">Registrarse
