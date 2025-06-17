@@ -1,2 +1,13 @@
 # SecurityMapsWebTest
 Index.html
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Security Maps</title>
+</head>
+<body>
+  <h1>¡Sitio Web Activo!</h1>
+  <p>Este es un test exitoso de Security Maps®</p>
+</body>
+</html>
